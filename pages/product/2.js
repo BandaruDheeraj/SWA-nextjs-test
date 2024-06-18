@@ -5,9 +5,9 @@ import React from 'react';
 export async function getStaticProps() {
     // Mock fetch product data
     const product = {
-        id: 1,
-        name: `Azure Static Web Apps`,
-        price: 100,
+        id: 2,
+        name: `Azure Functions`,
+        price: 200,
     };
 
     return { props: { product } };
